@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4401D6F3-A798-4D03-B135-62D006E88C75}</ProjectGuid>
+    <ProjectGuid>{BD5872E6-885D-49D0-9FC6-870536ACD470}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProductManagementApp</RootNamespace>
-    <AssemblyName>ProductManagementApp</AssemblyName>
+    <RootNamespace>GreetingApp</RootNamespace>
+    <AssemblyName>GreetingApp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,15 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoryCriteria.cs" />
-    <Compile Include="CompareProductByCost.cs" />
-    <Compile Include="CompareProductById.cs" />
-    <Compile Include="CostlyProductCriteria.cs" />
-    <Compile Include="ICompareProduct.cs" />
-    <Compile Include="IProductCriteria.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductCriteriaDelegate.cs" />
-    <Compile Include="ProductsCollection.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -58,7 +58,13 @@ namespace ProductManagementApp
 
             Console.WriteLine("All products belonging to category 1");
             Console.WriteLine("========================================================");
-            var cat1Products = products.Filter(new CategoryCriteria(1));
+            /*var cat1Products = products.Filter(delegate(Product product)
+                {
+                    return product.Category == 1;
+                });
+             */
+            var cat1Products = products.Filter(p => p.Category == 1);
+
             foreach (var product in cat1Products)
                 Console.WriteLine(product);
             Console.WriteLine("========================================================");
